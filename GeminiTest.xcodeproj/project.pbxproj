@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF873AA73660B084B62B650 /* Pods_GeminiTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E034CCBBE0861C355F274E4A /* Pods_GeminiTestUITests.framework */; };
+		9079560D9B494560314FB384 /* Pods_GeminiTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1726269FA91E57C97FA06D0 /* Pods_GeminiTestTests.framework */; };
+		92DF2BEC21B553C900916213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF2BEB21B553C900916213 /* AppDelegate.swift */; };
+		92DF2BEE21B553C900916213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF2BED21B553C900916213 /* ViewController.swift */; };
+		92DF2BF121B553C900916213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DF2BEF21B553C900916213 /* Main.storyboard */; };
+		92DF2BF321B553CC00916213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DF2BF221B553CC00916213 /* Assets.xcassets */; };
+		92DF2BF621B553CC00916213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DF2BF421B553CC00916213 /* LaunchScreen.storyboard */; };
+		92DF2C0121B553CC00916213 /* GeminiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF2C0021B553CC00916213 /* GeminiTestTests.swift */; };
+		92DF2C0C21B553CC00916213 /* GeminiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF2C0B21B553CC00916213 /* GeminiTestUITests.swift */; };
+		92DF2C1B21B5561F00916213 /* Gemini1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF2C1921B5561F00916213 /* Gemini1CollectionViewCell.swift */; };
+		92DF2C1C21B5561F00916213 /* Gemini1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DF2C1A21B5561F00916213 /* Gemini1CollectionViewCell.xib */; };
+		92DF2C1F21B5562F00916213 /* Gemini2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF2C1D21B5562F00916213 /* Gemini2CollectionViewCell.swift */; };
+		92DF2C2021B5562F00916213 /* Gemini2CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DF2C1E21B5562F00916213 /* Gemini2CollectionViewCell.xib */; };
+		A9D03C1DF5369D275ABE3A1A /* Pods_GeminiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D2F32A8DC1D05E9052F823 /* Pods_GeminiTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DF2BFD21B553CC00916213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DF2BE021B553C900916213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DF2BE721B553C900916213;
+			remoteInfo = GeminiTest;
+		};
+		92DF2C0821B553CC00916213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DF2BE021B553C900916213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DF2BE721B553C900916213;
+			remoteInfo = GeminiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D2F32A8DC1D05E9052F823 /* Pods_GeminiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeminiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9250D5FB9D09F703940071 /* Pods-GeminiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeminiTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeminiTest/Pods-GeminiTest.release.xcconfig"; sourceTree = "<group>"; };
+		63DD852AB79C51C422F97D0C /* Pods-GeminiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeminiTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeminiTestTests/Pods-GeminiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CE2404F213EA8D625AE9A7B /* Pods-GeminiTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeminiTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeminiTestUITests/Pods-GeminiTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92DF2BE821B553C900916213 /* GeminiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeminiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DF2BEB21B553C900916213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DF2BED21B553C900916213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92DF2BF021B553C900916213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DF2BF221B553CC00916213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DF2BF521B553CC00916213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DF2BF721B553CC00916213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DF2BFC21B553CC00916213 /* GeminiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeminiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DF2C0021B553CC00916213 /* GeminiTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiTestTests.swift; sourceTree = "<group>"; };
+		92DF2C0221B553CC00916213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DF2C0721B553CC00916213 /* GeminiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeminiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DF2C0B21B553CC00916213 /* GeminiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiTestUITests.swift; sourceTree = "<group>"; };
+		92DF2C0D21B553CC00916213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DF2C1921B5561F00916213 /* Gemini1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini1CollectionViewCell.swift; sourceTree = "<group>"; };
+		92DF2C1A21B5561F00916213 /* Gemini1CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Gemini1CollectionViewCell.xib; sourceTree = "<group>"; };
+		92DF2C1D21B5562F00916213 /* Gemini2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gemini2CollectionViewCell.swift; sourceTree = "<group>"; };
+		92DF2C1E21B5562F00916213 /* Gemini2CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Gemini2CollectionViewCell.xib; sourceTree = "<group>"; };
+		A1726269FA91E57C97FA06D0 /* Pods_GeminiTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeminiTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E034CCBBE0861C355F274E4A /* Pods_GeminiTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeminiTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F295F154EAEE5FE92EAA0252 /* Pods-GeminiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeminiTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeminiTestTests/Pods-GeminiTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E08574AD8A7EE8E9179C42 /* Pods-GeminiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeminiTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeminiTest/Pods-GeminiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FE80B750A889FB40B0677814 /* Pods-GeminiTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeminiTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeminiTestUITests/Pods-GeminiTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DF2BE521B553C900916213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D03C1DF5369D275ABE3A1A /* Pods_GeminiTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DF2BF921B553CC00916213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9079560D9B494560314FB384 /* Pods_GeminiTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DF2C0421B553CC00916213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF873AA73660B084B62B650 /* Pods_GeminiTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32AD8779B07BC82D8F3AF772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D2F32A8DC1D05E9052F823 /* Pods_GeminiTest.framework */,
+				A1726269FA91E57C97FA06D0 /* Pods_GeminiTestTests.framework */,
+				E034CCBBE0861C355F274E4A /* Pods_GeminiTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92DF2BDF21B553C900916213 = {
+			isa = PBXGroup;
+			children = (
+				92DF2BEA21B553C900916213 /* GeminiTest */,
+				92DF2BFF21B553CC00916213 /* GeminiTestTests */,
+				92DF2C0A21B553CC00916213 /* GeminiTestUITests */,
+				92DF2BE921B553C900916213 /* Products */,
+				EED1FD90878D20A508773316 /* Pods */,
+				32AD8779B07BC82D8F3AF772 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92DF2BE921B553C900916213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DF2BE821B553C900916213 /* GeminiTest.app */,
+				92DF2BFC21B553CC00916213 /* GeminiTestTests.xctest */,
+				92DF2C0721B553CC00916213 /* GeminiTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DF2BEA21B553C900916213 /* GeminiTest */ = {
+			isa = PBXGroup;
+			children = (
+				92DF2BEB21B553C900916213 /* AppDelegate.swift */,
+				92DF2BED21B553C900916213 /* ViewController.swift */,
+				92DF2BEF21B553C900916213 /* Main.storyboard */,
+				92DF2BF221B553CC00916213 /* Assets.xcassets */,
+				92DF2BF421B553CC00916213 /* LaunchScreen.storyboard */,
+				92DF2BF721B553CC00916213 /* Info.plist */,
+				92DF2C1921B5561F00916213 /* Gemini1CollectionViewCell.swift */,
+				92DF2C1A21B5561F00916213 /* Gemini1CollectionViewCell.xib */,
+				92DF2C1D21B5562F00916213 /* Gemini2CollectionViewCell.swift */,
+				92DF2C1E21B5562F00916213 /* Gemini2CollectionViewCell.xib */,
+			);
+			path = GeminiTest;
+			sourceTree = "<group>";
+		};
+		92DF2BFF21B553CC00916213 /* GeminiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DF2C0021B553CC00916213 /* GeminiTestTests.swift */,
+				92DF2C0221B553CC00916213 /* Info.plist */,
+			);
+			path = GeminiTestTests;
+			sourceTree = "<group>";
+		};
+		92DF2C0A21B553CC00916213 /* GeminiTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92DF2C0B21B553CC00916213 /* GeminiTestUITests.swift */,
+				92DF2C0D21B553CC00916213 /* Info.plist */,
+			);
+			path = GeminiTestUITests;
+			sourceTree = "<group>";
+		};
+		EED1FD90878D20A508773316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E08574AD8A7EE8E9179C42 /* Pods-GeminiTest.debug.xcconfig */,
+				3F9250D5FB9D09F703940071 /* Pods-GeminiTest.release.xcconfig */,
+				63DD852AB79C51C422F97D0C /* Pods-GeminiTestTests.debug.xcconfig */,
+				F295F154EAEE5FE92EAA0252 /* Pods-GeminiTestTests.release.xcconfig */,
+				FE80B750A889FB40B0677814 /* Pods-GeminiTestUITests.debug.xcconfig */,
+				6CE2404F213EA8D625AE9A7B /* Pods-GeminiTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DF2BE721B553C900916213 /* GeminiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DF2C1021B553CC00916213 /* Build configuration list for PBXNativeTarget "GeminiTest" */;
+			buildPhases = (
+				893D8BA6D0A4B89613CA0F8F /* [CP] Check Pods Manifest.lock */,
+				92DF2BE421B553C900916213 /* Sources */,
+				92DF2BE521B553C900916213 /* Frameworks */,
+				92DF2BE621B553C900916213 /* Resources */,
+				F5D7E0FB10353C0D1D55B0E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeminiTest;
+			productName = GeminiTest;
+			productReference = 92DF2BE821B553C900916213 /* GeminiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DF2BFB21B553CC00916213 /* GeminiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DF2C1321B553CC00916213 /* Build configuration list for PBXNativeTarget "GeminiTestTests" */;
+			buildPhases = (
+				BE1AF431D8CD27454C29962D /* [CP] Check Pods Manifest.lock */,
+				92DF2BF821B553CC00916213 /* Sources */,
+				92DF2BF921B553CC00916213 /* Frameworks */,
+				92DF2BFA21B553CC00916213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DF2BFE21B553CC00916213 /* PBXTargetDependency */,
+			);
+			name = GeminiTestTests;
+			productName = GeminiTestTests;
+			productReference = 92DF2BFC21B553CC00916213 /* GeminiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DF2C0621B553CC00916213 /* GeminiTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DF2C1621B553CC00916213 /* Build configuration list for PBXNativeTarget "GeminiTestUITests" */;
+			buildPhases = (
+				7B7C492DE3B3290DA1C7F70A /* [CP] Check Pods Manifest.lock */,
+				92DF2C0321B553CC00916213 /* Sources */,
+				92DF2C0421B553CC00916213 /* Frameworks */,
+				92DF2C0521B553CC00916213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DF2C0921B553CC00916213 /* PBXTargetDependency */,
+			);
+			name = GeminiTestUITests;
+			productName = GeminiTestUITests;
+			productReference = 92DF2C0721B553CC00916213 /* GeminiTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DF2BE021B553C900916213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "村田真矢";
+				TargetAttributes = {
+					92DF2BE721B553C900916213 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					92DF2BFB21B553CC00916213 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92DF2BE721B553C900916213;
+					};
+					92DF2C0621B553CC00916213 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92DF2BE721B553C900916213;
+					};
+				};
+			};
+			buildConfigurationList = 92DF2BE321B553C900916213 /* Build configuration list for PBXProject "GeminiTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DF2BDF21B553C900916213;
+			productRefGroup = 92DF2BE921B553C900916213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DF2BE721B553C900916213 /* GeminiTest */,
+				92DF2BFB21B553CC00916213 /* GeminiTestTests */,
+				92DF2C0621B553CC00916213 /* GeminiTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DF2BE621B553C900916213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DF2BF621B553CC00916213 /* LaunchScreen.storyboard in Resources */,
+				92DF2BF321B553CC00916213 /* Assets.xcassets in Resources */,
+				92DF2C2021B5562F00916213 /* Gemini2CollectionViewCell.xib in Resources */,
+				92DF2BF121B553C900916213 /* Main.storyboard in Resources */,
+				92DF2C1C21B5561F00916213 /* Gemini1CollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DF2BFA21B553CC00916213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DF2C0521B553CC00916213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B7C492DE3B3290DA1C7F70A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeminiTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		893D8BA6D0A4B89613CA0F8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeminiTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE1AF431D8CD27454C29962D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeminiTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D7E0FB10353C0D1D55B0E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeminiTest/Pods-GeminiTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeminiTest/Pods-GeminiTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DF2BE421B553C900916213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DF2C1F21B5562F00916213 /* Gemini2CollectionViewCell.swift in Sources */,
+				92DF2BEE21B553C900916213 /* ViewController.swift in Sources */,
+				92DF2BEC21B553C900916213 /* AppDelegate.swift in Sources */,
+				92DF2C1B21B5561F00916213 /* Gemini1CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DF2BF821B553CC00916213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DF2C0121B553CC00916213 /* GeminiTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DF2C0321B553CC00916213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DF2C0C21B553CC00916213 /* GeminiTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DF2BFE21B553CC00916213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DF2BE721B553C900916213 /* GeminiTest */;
+			targetProxy = 92DF2BFD21B553CC00916213 /* PBXContainerItemProxy */;
+		};
+		92DF2C0921B553CC00916213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DF2BE721B553C900916213 /* GeminiTest */;
+			targetProxy = 92DF2C0821B553CC00916213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DF2BEF21B553C900916213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DF2BF021B553C900916213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DF2BF421B553CC00916213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DF2BF521B553CC00916213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DF2C0E21B553CC00916213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DF2C0F21B553CC00916213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DF2C1121B553CC00916213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E08574AD8A7EE8E9179C42 /* Pods-GeminiTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C94WVT824;
+				INFOPLIST_FILE = GeminiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shinyamurata.GeminiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DF2C1221B553CC00916213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9250D5FB9D09F703940071 /* Pods-GeminiTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C94WVT824;
+				INFOPLIST_FILE = GeminiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shinyamurata.GeminiTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92DF2C1421B553CC00916213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DD852AB79C51C422F97D0C /* Pods-GeminiTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C94WVT824;
+				INFOPLIST_FILE = GeminiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shinyamurata.GeminiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeminiTest.app/GeminiTest";
+			};
+			name = Debug;
+		};
+		92DF2C1521B553CC00916213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F295F154EAEE5FE92EAA0252 /* Pods-GeminiTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C94WVT824;
+				INFOPLIST_FILE = GeminiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shinyamurata.GeminiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeminiTest.app/GeminiTest";
+			};
+			name = Release;
+		};
+		92DF2C1721B553CC00916213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE80B750A889FB40B0677814 /* Pods-GeminiTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C94WVT824;
+				INFOPLIST_FILE = GeminiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shinyamurata.GeminiTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeminiTest;
+			};
+			name = Debug;
+		};
+		92DF2C1821B553CC00916213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE2404F213EA8D625AE9A7B /* Pods-GeminiTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C94WVT824;
+				INFOPLIST_FILE = GeminiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shinyamurata.GeminiTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeminiTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DF2BE321B553C900916213 /* Build configuration list for PBXProject "GeminiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DF2C0E21B553CC00916213 /* Debug */,
+				92DF2C0F21B553CC00916213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DF2C1021B553CC00916213 /* Build configuration list for PBXNativeTarget "GeminiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DF2C1121B553CC00916213 /* Debug */,
+				92DF2C1221B553CC00916213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DF2C1321B553CC00916213 /* Build configuration list for PBXNativeTarget "GeminiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DF2C1421B553CC00916213 /* Debug */,
+				92DF2C1521B553CC00916213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DF2C1621B553CC00916213 /* Build configuration list for PBXNativeTarget "GeminiTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DF2C1721B553CC00916213 /* Debug */,
+				92DF2C1821B553CC00916213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DF2BE021B553C900916213 /* Project object */;
+}
